@@ -37,3 +37,4 @@ while(True):
 capture.release()
 cv2.destroyAllWindows()
 f.write(str(i))
+f.close()
