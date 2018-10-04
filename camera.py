@@ -14,7 +14,7 @@ f.close()
 
 print(i)
 
-capture = cv2.VideoCapture(0)
+capture = cv2.VideoCapture(1)
 capture.set(cv2.CAP_PROP_FRAME_WIDTH, 500)
 capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 500)
 
