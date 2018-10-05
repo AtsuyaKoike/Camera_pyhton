@@ -31,7 +31,6 @@ while(True):
         i += 1
         picture = directory + str(i) + extension
         cv2.imwrite(picture, frame)
-        cv2.waitKey(1)
     elif cv2.waitKey(1) & 0xFF == ord('z'):
         break;
        
